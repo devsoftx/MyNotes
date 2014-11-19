@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace MyNotes
 {
-	[Activity (Label = "NoteEditorActivity", Icon = "@drawable/ic_launcher")]			
+	[Activity (Label = "Editor", Icon = "@drawable/ic_launcher")]			
 	public class NoteEditorActivity : Activity
 	{
 		private NoteItem noteItem;
