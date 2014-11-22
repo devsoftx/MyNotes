@@ -60,11 +60,10 @@ namespace MyNotes
 		protected override void OnListItemClick (ListView l, View v, int position, long id)
 		{
 			NoteItem noteItem = notesList [position];
-			Intent intent = new Intent ();
+			Intent intent = new Intent (this, typeof(NoteEditorActivity));
 			intent.PutExtra (NoteItem.KEY, noteItem.Key.ToString());
 			intent.PutExtra (NoteItem.TEXT, noteItem.Text);
-			datasource.Update (noteItem);
-			refresh ();
+			StartActivityForResult(intent, EDITOR_ACTIVITY_REQUEST);
 		}
 
 		public override void OnCreateContextMenu (IContextMenu menu, View v, IContextMenuContextMenuInfo menuInfo)
