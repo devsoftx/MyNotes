@@ -6,13 +6,13 @@ using Android.App;
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle ("MyNotes")]
-[assembly: AssemblyDescription ("")]
+[assembly: AssemblyDescription ("Simple app for take rapid notes")]
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("http://devsoftx.net")]
-[assembly: AssemblyProduct ("")]
+[assembly: AssemblyProduct ("MyNotes")]
 [assembly: AssemblyCopyright ("Software Development Centre PE")]
-[assembly: AssemblyTrademark ("")]
-[assembly: AssemblyCulture ("")]
+[assembly: AssemblyTrademark ("Derechos reservados")]
+[assembly: AssemblyCulture ("es-PE")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,

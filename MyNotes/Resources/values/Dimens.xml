@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="usuario_margin_right">10dp</dimen>
+	<dimen name="nombre_margin_right">10dp</dimen>
+	<dimen name="clave_margin_right">22dp</dimen>
+	<dimen name="capa_padding">30dp</dimen>
+	<dimen name="boton_margin_top">15dp</dimen>
+	<dimen name="registro_margin_right">20dp</dimen>
+    <dimen name="registro_margin_top">20dp</dimen>
+</resources>

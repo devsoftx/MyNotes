@@ -41,6 +41,40 @@ namespace MyNotes
 			}
 		}
 		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f040004
+			public const int boton_margin_top = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int capa_padding = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int clave_margin_right = 2130968578;
+			
+			// aapt resource value: 0x7f040001
+			public const int nombre_margin_right = 2130968577;
+			
+			// aapt resource value: 0x7f040005
+			public const int registro_margin_right = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int registro_margin_top = 2130968582;
+			
+			// aapt resource value: 0x7f040000
+			public const int usuario_margin_right = 2130968576;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -72,11 +106,20 @@ namespace MyNotes
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070001
-			public const int action_create = 2131165185;
+			// aapt resource value: 0x7f080004
+			public const int action_create = 2131230724;
 			
-			// aapt resource value: 0x7f070000
-			public const int noteText = 2131165184;
+			// aapt resource value: 0x7f080002
+			public const int btnIngresar = 2131230722;
+			
+			// aapt resource value: 0x7f080003
+			public const int noteText = 2131230723;
+			
+			// aapt resource value: 0x7f080001
+			public const int txtClave = 2131230721;
+			
+			// aapt resource value: 0x7f080000
+			public const int txtUsuario = 2131230720;
 			
 			static Id()
 			{
@@ -92,13 +135,16 @@ namespace MyNotes
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int list_item_layout = 2130903040;
+			public const int List_item = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int Login = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int NoteEditor = 2130903042;
+			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int NoteEditor = 2130903043;
 			
 			static Layout()
 			{
@@ -113,8 +159,8 @@ namespace MyNotes
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int main = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int main = 2131165184;
 			
 			static Menu()
 			{
@@ -129,17 +175,59 @@ namespace MyNotes
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040002
-			public const int action_create = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int action_create = 2131034114;
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int app_name = 2131034113;
 			
-			// aapt resource value: 0x7f040003
-			public const int delete = 2130968579;
+			// aapt resource value: 0x7f050003
+			public const int delete = 2131034115;
 			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int hello = 2131034112;
+			
+			// aapt resource value: 0x7f050006
+			public const int texto_boton = 2131034118;
+			
+			// aapt resource value: 0x7f050009
+			public const int texto_boton_graba = 2131034121;
+			
+			// aapt resource value: 0x7f050005
+			public const int texto_clave = 2131034117;
+			
+			// aapt resource value: 0x7f05000d
+			public const int texto_clave_hint = 2131034125;
+			
+			// aapt resource value: 0x7f05000b
+			public const int texto_mensaje_clave = 2131034123;
+			
+			// aapt resource value: 0x7f050010
+			public const int texto_mensaje_error_insertar_supplybox = 2131034128;
+			
+			// aapt resource value: 0x7f05000f
+			public const int texto_mensaje_error_insertar_usuario = 2131034127;
+			
+			// aapt resource value: 0x7f05000a
+			public const int texto_mensaje_usuario = 2131034122;
+			
+			// aapt resource value: 0x7f050011
+			public const int texto_mensaje_usuario_ya_existe = 2131034129;
+			
+			// aapt resource value: 0x7f050008
+			public const int texto_nombre = 2131034120;
+			
+			// aapt resource value: 0x7f05000e
+			public const int texto_nombre_hint = 2131034126;
+			
+			// aapt resource value: 0x7f050007
+			public const int texto_registro = 2131034119;
+			
+			// aapt resource value: 0x7f050004
+			public const int texto_usuario = 2131034116;
+			
+			// aapt resource value: 0x7f05000c
+			public const int texto_usuario_hint = 2131034124;
 			
 			static String()
 			{
@@ -154,8 +242,8 @@ namespace MyNotes
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Mono_Android_Theme_Splash = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int Mono_Android_Theme_Splash = 2131099648;
 			
 			static Style()
 			{

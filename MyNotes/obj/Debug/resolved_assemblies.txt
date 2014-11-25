@@ -1,1 +1,1 @@
-/Users/fabricio/Projects/MyNotes/MyNotes/bin/Debug/MyNotes.dll
+/Users/fabricio/code/MyNotes/MyNotes/bin/Debug/MyNotes.dll

@@ -14,7 +14,7 @@ public class NoteEditorActivity
 			"n_onResume:()V:GetOnResumeHandler\n" +
 			"n_onBackPressed:()V:GetOnBackPressedHandler\n" +
 			"";
-		mono.android.Runtime.register ("MyNotes.NoteEditorActivity, MyNotes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", NoteEditorActivity.class, __md_methods);
+		mono.android.Runtime.register ("MyNotes.NoteEditorActivity, MyNotes, Version=1.0.0.0, Culture=es-PE, PublicKeyToken=null", NoteEditorActivity.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class NoteEditorActivity
 	{
 		super ();
 		if (getClass () == NoteEditorActivity.class)
-			mono.android.TypeManager.Activate ("MyNotes.NoteEditorActivity, MyNotes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("MyNotes.NoteEditorActivity, MyNotes, Version=1.0.0.0, Culture=es-PE, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

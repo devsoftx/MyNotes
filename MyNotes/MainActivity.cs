@@ -10,7 +10,7 @@ using System.Collections.Generic;
 
 namespace MyNotes
 {
-	[Activity (Label = "MyNotes", MainLauncher = true, Icon = "@drawable/ic_launcher")]
+	[Activity (Label = "MyNotes", MainLauncher = false, Icon = "@drawable/ic_launcher")]
 	public class MainActivity : ListActivity
 	{
 		private static int EDITOR_ACTIVITY_REQUEST = 1001;

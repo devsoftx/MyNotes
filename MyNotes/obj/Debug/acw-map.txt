@@ -1,2 +1,3 @@
 MyNotes.MainActivity;mynotes.MainActivity
 MyNotes.NoteEditorActivity;mynotes.NoteEditorActivity
+MyNotes.LoginActivity;mynotes.LoginActivity

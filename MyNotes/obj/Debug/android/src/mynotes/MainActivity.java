@@ -17,7 +17,7 @@ public class MainActivity
 			"n_onContextItemSelected:(Landroid/view/MenuItem;)Z:GetOnContextItemSelected_Landroid_view_MenuItem_Handler\n" +
 			"n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler\n" +
 			"";
-		mono.android.Runtime.register ("MyNotes.MainActivity, MyNotes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MainActivity.class, __md_methods);
+		mono.android.Runtime.register ("MyNotes.MainActivity, MyNotes, Version=1.0.0.0, Culture=es-PE, PublicKeyToken=null", MainActivity.class, __md_methods);
 	}
 
 
@@ -25,7 +25,7 @@ public class MainActivity
 	{
 		super ();
 		if (getClass () == MainActivity.class)
-			mono.android.TypeManager.Activate ("MyNotes.MainActivity, MyNotes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("MyNotes.MainActivity, MyNotes, Version=1.0.0.0, Culture=es-PE, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 
